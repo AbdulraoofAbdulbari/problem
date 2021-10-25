@@ -1,0 +1,52 @@
+<html>
+
+<body>
+  <h2>Fridge Items</h2>
+  <table>
+    <thead>
+      <td>
+        <b>Item</b>
+      </td>
+      <td>
+        <b>Count</b>
+      </td>
+      <td>
+        <b>Remove</b>
+      </td>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Cucumber</td>
+        <td class="re">3</td>
+        <td><button id="event" onClick="remove(event)">X</button></td>
+      </tr>
+      <tr>
+        <td>Lettuce</td>
+        <td id="re">5</td>
+        <td><button id="event1" onClick="remove(event)">X</button></td>
+      </tr>
+    </tbody>
+  </table>
+  <br />
+  <input id="addtext" type="text">
+  <button id="add">Add</button>
+</body>
+<script>
+  const add = document.getElementById('add')
+  add.addEventListener("click",
+    () => {
+
+      add.innerText.document.getElementById('addtext')
+    })
+  function remove(event) {
+
+
+  }
+</script>
+<style>
+  td {
+    padding-right: 50px;
+  }
+</style>
+
+</html>
